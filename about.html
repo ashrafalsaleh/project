@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            z-index: 1;
+        }
+        .logo img {
+            height: 70px;
+            width: 70px;
+            margin-left: 150px;
+            margin-top: 5px;
+        }
+        .items ul li {
+            display: inline;
+            font-size: 23px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .items ul li a {
+            display: inline;
+            font-size: 23px;
+            font-weight: bold;
+            margin-left: 20px;
+            text-decoration: none;
+            color: black;
+        }
+        .items ul {
+            margin-right: 50px;
+        }
+        .items {
+            display: flex;
+            align-content: center;
+            margin-top: 20px;
+        }
+        .items ul li a:hover {
+            color: rgb(239, 8, 8);
+        }
+        .image-container {
+            position: relative;
+        }
+        .image-container img {
+            width: 100%;
+            opacity: 0.5;
+            background-repeat: no-repeat;
+        }
+        .introduction {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .introduction span {
+            font-size: 17px;
+            font-weight: normal;
+            color: rgb(61, 60, 60);
+        }
+        
+     
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./logoo.jpg">
+        </div>
+        <div class="items">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+   
+    <main class="mt-0 pt-5">
+        <div class="image-container">
+            <img src="./aboutimage.webp" >
+            <div class="introduction text-center">
+                <p>BabyStore brings you the best for your little ones, from over 230 family-friendly stores in 19 countries.<br><br>
+                    <span>Founded over 30 years ago with a single store in Bahrain, today, we continue to grow steadily.<br><br> We know you want the best for your little ones so we’re here to offer you top quality products at fabulous value for your money. Alongside our own well-loved ranges Juniors, Giggles and Eligo, we are proud to stock an unbeatable array of top international brands, including Lee Cooper, Barbie, Disney, Graco, Ferrari, Maclaren, Maui and Sons, Fisher Price and Little Tikes, giving you so much to choose from.</span>
+                </p>
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
